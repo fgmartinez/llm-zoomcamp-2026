@@ -1,0 +1,19 @@
+[project]
+name = "llm-zoomcamp-2026"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests",
+    "minsearch",
+    "openai",
+    "jupyter",
+    "python-dotenv",
+    "gitsource",
+    "openai-agents",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"

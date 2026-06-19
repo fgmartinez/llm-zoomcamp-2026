@@ -1,0 +1,7 @@
+requests
+minsearch
+openai
+jupyter
+python-dotenv
+gitsource
+openai-agents
