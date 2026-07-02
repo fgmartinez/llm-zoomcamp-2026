@@ -1,0 +1,24 @@
+2026-07-01T14:43:46.469221Z INFO ❌ Response WITHOUT RAG (no retrieved context):
+Kestra 1.1 introduced several exciting features that significantly enhanced its capabilities and user experience. Here are at least 5 major features with brief descriptions:
+
+1.  **Topology View:**
+    *   **Description:** This is a powerful new visualization feature that allows users to see the complete execution flow of a flow in a graphical format. It displays the relationships between tasks, branches, and subflows, making it much easier to understand complex workflows at a glance. It helps in identifying bottlenecks, understanding parallelism, and debugging.
+
+2.  **Plugin Management:**
+    *   **Description:** Kestra 1.1 introduced a dedicated interface and mechanism for managing plugins. Users can now easily discover, install, update, and remove plugins directly within the Kestra UI. This greatly simplifies the process of extending Kestra's functionality and integrating with various external systems, making it more accessible for users to customize their Kestra environment.
+
+3.  **Task Runtimes (e.g., Python Task Runtime):**
+    *   **Description:** This feature allows Kestra to execute tasks in isolated and managed environments (runtimes). A prominent example released with 1.1 was the Python Task Runtime, which enables Python code to be run directly within Kestra tasks without needing to set up a separate Python environment beforehand. This simplifies dependency management and ensures consistent execution, as the runtime can be pre-configured with necessary libraries.
+
+4.  **Flow Template Enhancement:**
+    *   **Description:** Kestra 1.1 improved the templating capabilities for flows, making it easier to create reusable and standardized workflow patterns. This allows users to define a base flow structure with placeholders (variables) that can be filled in when creating new flows from the template. It promotes consistency, reduces duplication, and speeds up the development of similar workflows.
+
+5.  **New Triggers (e.g., S3 Trigger, Kafka Trigger):**
+    *   **Description:** Kestra 1.1 expanded the range of available triggers, allowing flows to be initiated by a wider variety of external events. Examples included the S3 Trigger, which can start a flow when a file is uploaded or modified in an S3 bucket, and the Kafka Trigger, which can react to new messages on a Kafka topic. These new triggers significantly increased Kestra's ability to act as an event-driven orchestrator, reacting to changes in various data sources and systems.
+
+🤔 Did you notice that this response seems to be:
+- Incorrect?
+- Vague/generic?
+- Listing features that haven't been added in exactly this version but rather a long time ago?
+
+👉 This is why context matters! Run `2_chat_with_rag.yaml` to see the accurate, context-grounded response.

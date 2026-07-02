@@ -1,0 +1,10 @@
+2026-07-01T14:45:03.341065Z INFO ✅ RAG Response (with retrieved context):
+Kestra 1.1 introduced several major features, including:
+
+1.  **New Filters**: The UI filters were completely redesigned for improved usability, offering explicit filter options, single-click resets, the ability to save frequently used combinations, and options to hide, show, or reorder table columns.
+2.  **No-Code Dashboard Editor**: This feature allows users to create and edit dashboards using a no-code, multi-panel editor directly from the UI, similar to the multi-panel flow editor. Users can build data sources, visualizations, and charts without writing YAML.
+3.  **Multi-Agent AI Systems**: AI agents can now use other AI agents as tools, enabling sophisticated multi-agent orchestration workflows where a primary agent can delegate subtasks to specialized expert agents.
+4.  **Fix with AI**: When task runs fail, Kestra 1.1 provides AI-powered suggestions to help users quickly diagnose and resolve issues, offering intelligent recommendations for fixing problems.
+5.  **Human Task**: For Enterprise Edition users, this new task allows workflows to pause and wait for manual approval from specific users or groups before proceeding, enabling human-in-the-loop workflows for critical operations.
+
+🎉 Note that this response is detailed, accurate, and grounded in the actual release documentation. Compare this with the output from 1_chat_without_rag.yaml!
