@@ -12,6 +12,8 @@ dependencies = [
     "python-dotenv",
     "gitsource",
     "openai-agents",
+    "pydantic>=2.13.4",
+    "pandas>=3.0.3",
 ]
 
 [build-system]

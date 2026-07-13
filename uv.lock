@@ -1014,6 +1014,8 @@ dependencies = [
     { name = "minsearch" },
     { name = "openai" },
     { name = "openai-agents" },
+    { name = "pandas" },
+    { name = "pydantic" },
     { name = "python-dotenv" },
     { name = "requests" },
 ]
@@ -1025,6 +1027,8 @@ requires-dist = [
     { name = "minsearch" },
     { name = "openai" },
     { name = "openai-agents" },
+    { name = "pandas", specifier = ">=3.0.3" },
+    { name = "pydantic", specifier = ">=2.13.4" },
     { name = "python-dotenv" },
     { name = "requests" },
 ]
